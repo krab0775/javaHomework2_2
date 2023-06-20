@@ -12,14 +12,14 @@ public class Main {
         if (deposit1 > 1000) {
             refill1 = (score + deposit1);
             System.out.println("Счет пополнен на " + deposit1);
-            System.out.println("Средств на счете "+refill1);
+            System.out.println("Средств на счете " + refill1);
             System.out.println("Бонусов начислено: " + bonus1);
 
         } else {
             refill1 = (score + deposit1);
             System.out.println("Счет пополнен на " + deposit1);
             System.out.println("Бонусов начислено: 0");
-            System.out.println("Средств на счете "+refill1);
+            System.out.println("Средств на счете " + refill1);
 
         }
         System.out.println();
@@ -29,13 +29,13 @@ public class Main {
             refill2 = (score + deposit2);
             bonus2 = (deposit2 / 100);
             System.out.println("Счет пополнен на " + deposit2);
-            System.out.println("Бонусов начислено "+ bonus2);
+            System.out.println("Бонусов начислено " + bonus2);
             System.out.println("Средств на счете " + (refill2 + bonus2));
 
         } else {
             refill2 = (score + deposit2);
             System.out.println("Счет пополнен на" + deposit2);
-            System.out.println("Средств на счете "+refill2);
+            System.out.println("Средств на счете " + refill2);
             System.out.println("Бонусов начислено: ");
         }
 
