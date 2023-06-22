@@ -2,8 +2,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int score = 150; // Средства на счете
-        int deposit = 2187; //
+        int score = 150;
+        int deposit = 2187;
 
         int refill;
         int bonus;
