@@ -2,42 +2,23 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int score = 150;
-        int deposit1 = 500;
-        int deposit2 = 1321;
+        int score = 150; // Средства на счете
+        int deposit = 2187; //
 
-        int refill1;
-        int bonus1;
-        bonus1 = (deposit1 / 100);
-        if (deposit1 > 1000) {
-            refill1 = (score + deposit1);
-            System.out.println("Счет пополнен на " + deposit1);
-            System.out.println("Средств на счете " + refill1);
-            System.out.println("Бонусов начислено: " + bonus1);
+        int refill;
+        int bonus;
+        bonus = (deposit / 100);
+        if (deposit > 1000) {
+            refill = (score + deposit);
+            System.out.println("Счет пополнен на " + deposit);
+            System.out.println("Средств на счете " + refill);
+            System.out.println("Бонусов начислено: " + bonus);
 
         } else {
-            refill1 = (score + deposit1);
-            System.out.println("Счет пополнен на " + deposit1);
+            refill = (score + deposit);
+            System.out.println("Счет пополнен на " + deposit);
             System.out.println("Бонусов начислено: 0");
-            System.out.println("Средств на счете " + refill1);
-
+            System.out.println("Средств на счете " + refill);
         }
-        System.out.println();
-        int refill2;
-        int bonus2;
-        if (deposit2 > 1000) {
-            refill2 = (score + deposit2);
-            bonus2 = (deposit2 / 100);
-            System.out.println("Счет пополнен на " + deposit2);
-            System.out.println("Бонусов начислено " + bonus2);
-            System.out.println("Средств на счете " + (refill2 + bonus2));
-
-        } else {
-            refill2 = (score + deposit2);
-            System.out.println("Счет пополнен на" + deposit2);
-            System.out.println("Средств на счете " + refill2);
-            System.out.println("Бонусов начислено: ");
-        }
-
     }
 }
